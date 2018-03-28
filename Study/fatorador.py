@@ -11,6 +11,7 @@ def Fatorar(n):
 			i+=1;
 		if (rest<i):
 			break;
+
 def Fatorar2(n,nlist):
 	
 	print "Fatorando :",n,"...";
@@ -42,5 +43,5 @@ for i in range (len(l)):
 				value = l[i]*x;
 				primos.remove(value);
 print primos;
-#Fatorar2(num,primos);
+Fatorar2(num,primos);
 
