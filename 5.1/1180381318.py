@@ -9,7 +9,7 @@ n =input()
 crivo=[]
 crivo2=[]
 i=3
-while (i<n):
+while (i<n+1):
     crivo.append(i);
     crivo2.append(i);
     i+=2
